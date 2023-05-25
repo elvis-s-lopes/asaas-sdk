@@ -1,7 +1,7 @@
 Asaas sdk
 ====================
 
-Adicionado facade a instanciação da classe principal. A forma de instanciação mudou de:
+Exemplo de uso.
 
 ```php
 use Lopes\Asaas\Facade\Asaas
