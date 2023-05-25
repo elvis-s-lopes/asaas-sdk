@@ -4,14 +4,6 @@ Asaas sdk
 Adicionado facade a instanciação da classe principal. A forma de instanciação mudou de:
 
 ```php
-use Lopes\Asaas\Asaas
-
-(new Asaas())->payment()->find()
-```
-
-Para:
-
-```php
 use Lopes\Asaas\Facade\Asaas
 
 Asaas::payment()->find()
